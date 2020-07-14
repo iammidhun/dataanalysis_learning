@@ -12,3 +12,14 @@ array([[ 1,  2,  3,  4,  5],
 
 np.zeros(4) #this will return array of elements with zero and shape of (1,4)
 array([0., 0., 0., 0.]) #output .dtype of the output will be float
+
+#elements with one
+np.ones([5,5])
+
+#identity matrix
+np.eye(5)
+
+#for a specific values in between to ranges
+#np.arange(start,end,step)
+np.arange(40,50,1) #i/p
+array([40, 41, 42, 43, 44, 45, 46, 47, 48, 49]) #o/p
