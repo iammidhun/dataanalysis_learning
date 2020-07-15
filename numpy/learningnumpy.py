@@ -32,3 +32,12 @@ arr =  np.arange(0,11) #arr will list value from 0  to 10 just like list
 #and array have features like indexing and listing values between particular arrays
 
 arr[0:5] = 100 #what will happen ?  the value indexing from zero to 4 will be 100
+
+
+slicing an array and changing it value will also affect the original array
+for eg  : 
+	arr =  np.arange(0,11)
+	slice_arr  =  arr[0:5]
+	slice_arr [:] = 5
+	so now all the value of slice_arr will be 5
+	and value of arr from index 0  to 4  will also be 5
