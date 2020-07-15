@@ -64,3 +64,8 @@ arr2 =  arr[:2,1:] #[:raw , :coulmn]
 array([[2, 3],
        [5, 6]])
 
+#fancy indexing
+
+arr2[[0,2]]
+this will return 1st and 3rd raws
+
