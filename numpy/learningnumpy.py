@@ -30,3 +30,5 @@ array([40, 41, 42, 43, 44, 45, 46, 47, 48, 49]) #o/p
 arr =  np.arange(0,11) #arr will list value from 0  to 10 just like list
 
 #and array have features like indexing and listing values between particular arrays
+
+arr[0:5] = 100 #what will happen ?  the value indexing from zero to 4 will be 100
