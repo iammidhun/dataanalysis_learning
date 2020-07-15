@@ -41,3 +41,21 @@ for eg  :
 	slice_arr [:] = 5
 	so now all the value of slice_arr will be 5
 	and value of arr from index 0  to 4  will also be 5
+#to solve this issue you can use .copy()
+
+
+#2d array
+arr  =  np.array(([1,2,3],[4,5,6],[7,8,9]))
+#arr will be
+array([[1, 2, 3],
+       [4, 5, 6],
+       [7, 8, 9]])
+
+arr[0] 
+#o/p will be
+array([1, 2, 3])
+
+simillary other raws
+
+arr[0][1] will return  2nd element  in 1st raw(0th position)
+
