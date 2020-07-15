@@ -23,3 +23,10 @@ np.eye(5)
 #np.arange(start,end,step)
 np.arange(40,50,1) #i/p
 array([40, 41, 42, 43, 44, 45, 46, 47, 48, 49]) #o/p
+
+
+
+#indexing arrays
+arr =  np.arange(0,11) #arr will list value from 0  to 10 just like list
+
+#and array have features like indexing and listing values between particular arrays
