@@ -59,3 +59,8 @@ simillary other raws
 
 arr[0][1] will return  2nd element  in 1st raw(0th position)
 
+#slicing 
+arr2 =  arr[:2,1:] #[:raw , :coulmn]
+array([[2, 3],
+       [5, 6]])
+
